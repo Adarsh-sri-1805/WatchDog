@@ -1,0 +1,20 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+openai
+requests
+Python 3.9+
+Streamlit
+Pandas
+NumPy
+Plotly
+scikit-learn
+NLTK
+TextBlob
+Hugging Face Transformers
+spaCy
+Requests
+python-dotenv
