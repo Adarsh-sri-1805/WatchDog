@@ -1,0 +1,100 @@
+ticket_id,feature,message,sentiment,timestamp
+1,login,"I can’t log in even after resetting the password!",negative,2025-07-19 08:23:00
+2,delivery,"My order arrived early, great service!",positive,2025-07-19 09:45:00
+3,payment,"The payment gateway crashed again!",negative,2025-07-18 18:12:00
+4,signup,"Signup was fast and easy!",positive,2025-07-17 20:00:00
+5,login,"Still facing login problems since last week.",negative,2025-07-16 11:50:00
+6,payment,"Refund took a while, but support helped me.",neutral,2025-07-16 15:30:00
+7,delivery,"Package was damaged when received.",negative,2025-07-15 19:45:00
+8,account,"Can’t update my email in the settings.",negative,2025-07-14 10:00:00
+9,signup,"Loved the new signup process, very smooth!",positive,2025-07-14 12:30:00
+10,login,"Login works fine now after the update.",positive,2025-07-13 14:20:00
+11,delivery,"Delivery was delayed by two days.",negative,2025-07-12 16:00:00
+12,payment,"Payment went through without any issues.",positive,2025-07-11 13:15:00
+13,account,"I can’t access my account settings.",negative,2025-07-10 09:00:00
+14,signup,"The signup confirmation email took too long.",negative,2025-07-09 17:30:00
+15,login,"I love the new login interface!",positive,2025-07-08 08:45:00
+16,delivery,"Received the wrong item in my order.",negative,2025-07-07 10:30:00
+17,payment,"Payment options are limited, needs improvement.",neutral,2025-07-06 14:00:00
+18,account,"I can’t reset my password, it keeps failing.",negative,2025-07-05 11:20:00
+19,signup,"The signup process is too complicated.",negative,2025-07-04 13:50:00
+20,login,"Login is quick and hassle-free now!",positive,2025-07-03 15:00:00
+21,delivery,"The delivery person was very polite and helpful.",positive,2025-07-02 17:10:00
+22,payment,"I had to contact support for my payment issue.",neutral,2025-07-01 12:00:00
+23,account,"I can’t change my password, it’s stuck.",negative,2025-06-30 09:30:00
+24,signup,"The signup page is very user-friendly!",positive,2025-06-29 14:40:00
+25,login,"Login failed multiple times today.",negative,2025-06-28 16:50:00
+26,delivery,"My package was delivered to the wrong address.",negative,2025-06-27 11:15:00
+27,payment,"I received a refund without asking for it, unexpected!",positive,2025-06-26 10:05:00
+28,account,"I can’t view my account history.",negative,2025-06-25 13:25:00
+29,signup,"The signup process is very quick and efficient!",positive,2025-06-24 12:00:00
+30,login,"Login issues persist, very frustrating.",negative,2025-06-23 08:55:00
+31,delivery,"The delivery was on time and the package was intact.",positive,2025-06-22 09:40:00
+32,payment,"Payment was successful, no issues at all.",positive,2025-06-21 10:30:00
+33,account,"I can’t delete my account, it’s not working.",negative,2025-06-20 11:15:00
+34,signup,"The signup process is too lengthy.",negative,2025-06-19 14:05:00
+35,login,"I love the new features in the login process!",positive,2025-06-18 15:20:00
+36,delivery,"The delivery was quick and the item was in perfect condition.",positive,2025-06-17 16:45:00
+37,payment,"Payment failed, but support resolved it quickly.",neutral,2025-06-16 17:30:00
+38,account,"I can’t access my account from the app.",negative,2025-06-15 18:00:00
+39,signup,"The signup process is very straightforward!",positive,2025-06-14 19:10:00
+40,login,"Login is slow and often times out.",negative,2025-06-13 20:20:00
+41,delivery,"The delivery was smooth and the driver was friendly.",positive,2025-06-12 21:30:00
+42,payment,"Payment options are great, very flexible.",positive,2025-06-11 22:40:00
+43,account,"I can’t find my account settings anywhere.",negative,2025-06-10 23:50:00
+44,signup,"The signup process is very intuitive!",positive,2025-06-09 08:00:00
+45,login,"Login is quick and easy, no issues at all!",positive,2025-06-08 09:10:00
+46,delivery,"The package arrived damaged, very disappointed.",negative,2025-06-07 10:20:00
+47,payment,"Payment was processed without any problems.",positive,2025-06-06 11:30:00
+48,account,"I can’t update my profile information.",negative,2025-06-05 12:40:00
+49,signup,"The signup process is very efficient!",positive,2025-06-04 13:50:00
+50,login,"Login is fast and reliable now!",positive,2025-06-03 14:00:00
+51,delivery,"The delivery was delayed but the support team was helpful.",neutral,2025-06-02 15:10:00
+52,payment,"Payment options are limited, could be better.",neutral,2025-06-01 16:20:00
+53,account,"I can’t log out of my account, it’s stuck.",negative,2025-05-31 17:30:00
+54,signup,"The signup process is very quick and easy!",positive,2025-05-30 18:40:00
+55,login,"Login is very slow today, not happy.",negative,2025-05-29 19:50:00
+56,delivery,"The delivery was on time and the package was in good condition.",positive,2025-05-28 20:00:00
+57,payment,"Payment was successful, no issues at all.",positive,2025-05-27 21:10:00
+58,account,"I can’t access my account settings from the app.",negative,2025 -05-26 22:20:00
+59,signup,"The signup process is very user-friendly!",positive,2025-05-25 23:30:00
+60,login,"Login is quick and hassle-free now!",positive,2025-05-24 08:40:00
+61,delivery,"The delivery was smooth and the package was intact.",positive,2025-05-23 09:50:00
+62,payment,"Payment failed, but support resolved it quickly.",neutral,2025-05-22 10:00:00
+63,account,"I can’t change my password, it’s stuck.",negative,2025-05-21 11:10:00
+64,signup,"The signup process is too complicated.",negative,2025-05-20 12:20:00
+65,login,"I love the new features in the login process!",positive,2025-05-19 13:30:00
+66,delivery,"The delivery was quick and the item was in perfect condition.",positive,2025-05-18 14:40:00
+67,payment,"Payment was successful, no issues at all.",positive,2025-05-17 15:50:00
+68,account,"I can’t delete my account, it’s not working.",negative,2025-05-16 16:00:00
+69,signup,"The signup process is too lengthy.",negative,2025-05-15 17:10:00
+70,login,"I love the new login interface!",positive,2025-05-14 18:20:00
+71,delivery,"Received the wrong item in my order.",negative,2025-05-13 19:30:00
+72,payment,"Payment options are limited, needs improvement.",neutral,2025-05-12 20:40:00
+73,account,"I can’t reset my password, it keeps failing.",negative,2025-05-11 21:50:00
+74,signup,"The signup process is very complicated.",negative,2025-05-10 22:00:00
+75,login,"Login is quick and hassle-free now!",positive,2025-05-09 23:10:00
+76,delivery,"The delivery person was very polite and helpful.",positive,2025-05-08 08:20:00
+77,payment,"I had to contact support for my payment issue.",neutral,2025-05-07 09:30:00
+78,account,"I can’t change my password, it’s stuck.",negative,2025-05-06 10:40:00
+79,signup,"The signup page is very user-friendly!",positive,2025-05-05 11:50:00
+80,login,"Login failed multiple times today.",negative,2025-05-04 12:00:00
+81,delivery,"My package was delivered to the wrong address.",negative,2025-05-03 13:10:00
+82,payment,"I received a refund without asking for it, unexpected!",positive,2025-05-02 14:20:00
+83,account,"I can’t view my account history.",negative,2025-05-01 15:30:00
+84,signup,"The signup process is very quick and efficient!",positive,2025-04-30 16:40:00
+85,login,"Login issues persist, very frustrating.",negative,2025-04-29 17:50:00
+86,delivery,"The delivery was on time and the package was intact.",positive,2025-04-28 18:00:00
+87,payment,"Payment was successful, no issues at all.",positive,2025-04-27 19:10:00
+88,account,"I can’t delete my account, it’s not working.",negative,2025-04-26 20:20:00
+89,signup,"The signup process is too lengthy.",negative,2025-04-25 21:30:00
+90,login,"I love the new features in the login process!",positive,2025-04-24 22:40:00
+91,delivery,"The delivery was quick and the item was in perfect condition.",positive,2025-04-23 23:50:00
+92,payment,"Payment failed, but support resolved it quickly.",neutral,2025-04-22 08:00:00
+93,account,"I can’t access my account from the app.",negative,2025-04-21 09:10:00
+94,signup,"The signup process is very user-friendly!",positive,2025-04-20 10:20:00
+95,login,"Login is quick and hassle-free now!",positive,2025-04-19 11:30:00
+96,delivery,"The delivery was smooth and the package was intact.",positive,2025-04-18 12:40:00
+97,payment,"Payment options are great, very flexible.",positive,2025-04-17 13:50:00
+98,account,"I can’t find my account settings anywhere.",negative,2025-04-16 15:00:00
+99,signup,"The signup process is very intuitive!",positive,2025-04-15 16:10:00
