@@ -160,14 +160,8 @@ with col1:
 
 with col2:
    
-    import os
-    
-    image_path = os.path.join("SIA", "Gemini_Generated_Image_3kaw693kaw693kaw.png")
-    
-    if os.path.exists(image_path):
-        hero_img = Image.open(image_path)
-    else:
-        hero_img = Image.new('RGB', (600, 400), color='#f0f2f6')  # fallback image
+    img = Image.open("Gemini_Generated_Image.png")
+    st.image(img)
 
 # ---------- STATS BAR ----------
 st.markdown("""
