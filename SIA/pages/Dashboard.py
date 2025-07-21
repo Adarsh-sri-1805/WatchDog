@@ -205,6 +205,6 @@ st.dataframe(
 # --- FOOTER ---
 st.markdown("""
     <div style="text-align: center; margin-top: 40px; color: #666; font-size: 12px;">
-        XYZ Cloths Co. Customer Experience Dashboard • Updated: {datetime.now().strftime('%Y-%m-%d %H:%M')}
+       • SIA v2.1 • Updated: {datetime.now().strftime('%Y-%m-%d')}
     </div>
 """, unsafe_allow_html=True)
