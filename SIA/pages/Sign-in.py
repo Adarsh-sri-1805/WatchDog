@@ -164,7 +164,7 @@ def show_signup():
                     time.sleep(2)
                     del st.session_state.signup_step
                     del st.session_state.signup_data
-                    st.session_state.stage = "Home"
+                    st.session_state.stage = None
                     st.rerun()
         
         st.markdown('</div>', unsafe_allow_html=True)
