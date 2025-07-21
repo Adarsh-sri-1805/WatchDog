@@ -162,7 +162,7 @@ with col2:
    
     import os
     
-    image_path = os.path.join("SIA", "pages", "Gemini_Generated_Image_3kaw693kaw693kaw.png")
+    image_path = os.path.join("SIA", "Gemini_Generated_Image_3kaw693kaw693kaw.png")
     
     if os.path.exists(image_path):
         hero_img = Image.open(image_path)
