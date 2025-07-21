@@ -1,4 +1,5 @@
 import streamlit as st
+from datetime import datetime  # Add this import
 
 # --- PAGE CONFIG ---
 st.set_page_config(
@@ -44,7 +45,7 @@ with st.container():
         col1, col2 = st.columns(2)
         with col1:
             st.selectbox("Conversation Mode", ["Support", "Technical", "General"])
-            st.toggle("Enable Voice", True)
+            
         with col2:
             st.selectbox("Knowledge Base", ["Current Month", "Last 3 Months", "All Time"])
             
@@ -66,6 +67,6 @@ st.markdown("""
 # --- FOOTER ---
 st.markdown("""
     <div style="text-align: center; margin-top: 20px; color: #666; font-size: 12px;">
-        XYZ Cloths Co. • SIA v2.1 • Updated: {datetime.now().strftime('%Y-%m-%d')}
+       • SIA v2.1 • Updated: {datetime.now().strftime('%Y-%m-%d')}
     </div>
 """, unsafe_allow_html=True)
