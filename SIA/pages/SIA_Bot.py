@@ -3,7 +3,7 @@ from datetime import datetime  # Add this import
 
 # --- PAGE CONFIG ---
 st.set_page_config(
-    page_title="SIA - Your Support Insight Assistant",
+    page_title="SIA - Your Sentiment Intelligence Assistant",
     layout="wide",
     page_icon="🤖"
 )
