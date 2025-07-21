@@ -6,7 +6,6 @@ seaborn
 plotly
 openai
 requests
-Python 
 Streamlit
 Pandas
 NumPy
