@@ -197,9 +197,9 @@ with col3:
     
     st.markdown("**Ask SIA anything:**")
     st.markdown("""
-    - "What are today's most urgent complaints?"
-    - "Show negative sentiment trends from last week"
-    - "Which product has the most complaints this month?"
+    - "How do most users seem to be reacting?"
+    - "Show negative sentiment trends related to login"
+    - "Which product has the most complaints?"
     """)
     
     st.markdown("""
