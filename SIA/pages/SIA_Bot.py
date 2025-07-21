@@ -39,7 +39,7 @@ st.markdown("""
 
 # --- CONTROL PANEL ---
 with st.container():
-    st.markdown('<h2 class="header">SIA - Support Insight Assistant</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 class="header">SIA - Sentiment Intelligence Assistant</h2>', unsafe_allow_html=True)
     
     with st.expander("⚙️ Control Panel", expanded=True):
         col1, col2 = st.columns(2)
