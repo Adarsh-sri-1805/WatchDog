@@ -159,7 +159,7 @@ with col1:
 
 
 with col2:
-        image_path = "Gemini_Generated_Image_3kaw693kaw693kaw.png"
+    image_path = "Gemini_Generated_Image_3kaw693kaw693kaw.png"
     if os.path.exists(image_path):
         hero_img = Image.open(image_path)
     else:
