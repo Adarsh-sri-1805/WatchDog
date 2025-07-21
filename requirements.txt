@@ -6,7 +6,7 @@ seaborn
 plotly
 openai
 requests
-Python 3.9+
+Python 
 Streamlit
 Pandas
 NumPy
@@ -14,7 +14,6 @@ Plotly
 scikit-learn
 NLTK
 TextBlob
-Hugging Face Transformers
 spaCy
 Requests
 python-dotenv
