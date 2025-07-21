@@ -167,7 +167,7 @@ with col2:
     current_dir = os.path.dirname(__file__)
     
     # Go one level up (to SIA/) and locate the image
-    image_path = os.path.join(current_dir, "..", "Gemini_Generated_Image_3kaw693kaw693kaw.png")
+    image_path = os.path.join(current_dir, "..", "SIA.png")
     
     # Normalize the path (important for cross-platform)
     image_path = os.path.abspath(image_path)
