@@ -148,7 +148,7 @@ with col1:
     
     st.markdown("""
     <div style="margin-top: 30px;">
-        <a href='/Sign up' target='_self'>
+        <a href='/Sign_up' target='_self'>
             <button class="cta-button" style="margin-right: 110px;">Get Started</button>
         </a>
         <a href='/SIA_Bot' target='_self'>
