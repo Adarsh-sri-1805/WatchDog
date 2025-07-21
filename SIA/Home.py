@@ -159,26 +159,9 @@ with col1:
 
 
 with col2:
-   
-    
-    import os
-
-    # Get directory of this file (pages/)
-    current_dir = os.path.dirname(__file__)
-    
-    # Go one level up (to SIA/) and locate the image
-    image_path = os.path.join(current_dir, "..", "SIA.png")
-    
-    # Normalize the path (important for cross-platform)
-    image_path = os.path.abspath(image_path)
-    
-    # Load and show the image
-    if os.path.exists(image_path):
-        img = Image.open(image_path)
-        st.image(img, caption="AI Generated", use_column_width=True)
-    else:
-        st.error(f"Image not found at path: {image_path}")
-    
+    # Placeholder for hero image - replace with your actual image
+    hero_img = Image.open("SIA.png") if "SIA.png" else Image.new('RGB', (600, 400), color='#f0f2f6')
+    st.image(hero_img, use_container_width=True, caption="")
 
 # ---------- STATS BAR ----------
 st.markdown("""
