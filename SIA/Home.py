@@ -210,7 +210,7 @@ with col3:
 with col4:
     # Placeholder for SIA demo image/gif
 
-    real_img = Image.open("ss.png")  # Update path as needed
+    real_img = Image.open("SS.png")  # Update path as needed
     st.image(real_img, use_container_width=True, caption="SIA in action - Real-time sentiment analysis dashboard")
 
 
