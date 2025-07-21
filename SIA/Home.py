@@ -160,8 +160,25 @@ with col1:
 
 with col2:
    
-    img = Image.open("Gemini_Generated_Image.png")
-    st.image(img)
+    
+    import os
+
+    # Get directory of this file (pages/)
+    current_dir = os.path.dirname(__file__)
+    
+    # Go one level up (to SIA/) and locate the image
+    image_path = os.path.join(current_dir, "..", "Gemini_Generated_Image.png")
+    
+    # Normalize the path (important for cross-platform)
+    image_path = os.path.abspath(image_path)
+    
+    # Load and show the image
+    if os.path.exists(image_path):
+        img = Image.open(image_path)
+        st.image(img, caption="AI Generated", use_column_width=True)
+    else:
+        st.error(f"Image not found at path: {image_path}")
+    
 
 # ---------- STATS BAR ----------
 st.markdown("""
