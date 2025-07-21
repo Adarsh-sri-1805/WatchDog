@@ -7,9 +7,8 @@ from io import StringIO
 
 # --- PAGE CONFIG ---
 st.set_page_config(
-    page_title="XYZ Cloths Co. - Sentiment Dashboard", 
-    layout="wide",
-    page_icon="👕"
+    page_title="Dashboard", 
+    layout="wide"
 )
 
 # --- STYLES ---
