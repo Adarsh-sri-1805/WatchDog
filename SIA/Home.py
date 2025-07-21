@@ -159,9 +159,15 @@ with col1:
 
 
 with col2:
-    # Placeholder for hero image - replace with your actual image
-    hero_img = Image.open("Gemini_Generated_Image_3kaw693kaw693kaw.png") if "Gemini_Generated_Image_3kaw693kaw693kaw.png" else Image.new('RGB', (600, 400), color='#f0f2f6')
-    st.image(hero_img, use_container_width=True, caption="")
+   
+    import os
+    
+    image_path = os.path.join("SIA", "pages", "Gemini_Generated_Image_3kaw693kaw693kaw.png")
+    
+    if os.path.exists(image_path):
+        hero_img = Image.open(image_path)
+    else:
+        hero_img = Image.new('RGB', (600, 400), color='#f0f2f6')  # fallback image
 
 # ---------- STATS BAR ----------
 st.markdown("""
